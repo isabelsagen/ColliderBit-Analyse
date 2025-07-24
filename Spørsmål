@@ -1,7 +1,24 @@
 Spørsmål
 
 - Holder det med 3 SR eller skal jeg inkludere flere sub SRs
-- Skjønner ikke ‘LooseAndBLayer’ for elektroner
-- Skjønner ikke 'satisfy the ‘Medium’ identification requirements'
+- Skjønner ikke ‘LooseAndBLayer’ for elektroner, kan ikke implimentere (kort svar), Lengre svar kan kanskje implimenteres ved å etterligne med samme prosent
+  gambit har kanskje noe som kan etterligne effektivitet
+  ATLAS effeciencies
+  linje605
+- Skjønner ikke 'satisfy the ‘Medium’ identification requirements', gjelder litt samme
+  linje 662, bruk Medium
+  ATLASeffecienec.hpp
   - for punktene over, må jeg gjøre noe?
 - Litt forvirret av 95 GeV < 𝑚𝛾𝛾 < 160 GeV på grunn av 𝑚𝛾𝛾 ∈ (120, 130) GeV
+
+
+
+To avoid reconstruction ambiguities and double counting of analysis objects, electrons, muons and jets are
+removed from events if they are within Δ𝑅 = 0.4 of any photon passing ‘Loose’
+- husk å sjekke dette, vil at partikler skal være isolert
+- kaller overlap removal
+- etter dette kan vi definere signal regionene
+
+
+funksjon som konverterer fra pythia til HEPutils:
+ColliderBit/include/gambit/ColliderBit/Py8EventConversions.hpp
