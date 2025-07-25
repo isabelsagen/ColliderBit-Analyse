@@ -1,0 +1,9 @@
+Nan dukker opp i følgende filer:
+-  Py8EventConversions.hpp 51 (25.07)
+
+
+Dukker ikke opp i
+- Vectors.h
+- EventConversionUtils.hpp
+
+andre testet 24.07
